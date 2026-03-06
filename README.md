@@ -25,8 +25,8 @@ decryptor.py: The recovery utility that utilizes the Private Key to unlock the s
 Fish_Data/: The isolated directory used for all simulation activities.
 
 ### How to Run
-Setup: Generate your keys by running python gen_keys.py.
+Setup: Generate your keys by running: python gen_keys.py
 
-Simulation: Place test files in Fish_Data/ and run python encryptor.py.
+Simulation: Place test files in Fish_Data/ and run: python encryptor.py
 
-Recovery: Restore the files to their original state by running python decryptor.py.
+Recovery: Restore the files to their original state by running: python decryptor.py
