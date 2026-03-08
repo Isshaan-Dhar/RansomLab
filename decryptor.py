@@ -36,7 +36,6 @@ def decrypt_lab():
 
     for root, dirs, files in os.walk(target_dir):
         for file in files:
-            # Only process files with the .locked extension
             if not file.endswith(".locked"):
                 continue
             
@@ -64,3 +63,4 @@ def decrypt_lab():
 if __name__ == "__main__":
 
     decrypt_lab()
+
